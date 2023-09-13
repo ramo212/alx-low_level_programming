@@ -4,14 +4,14 @@
 /**
  * _abs - function _abs.
  * @int: is the int
- * Return: Always 0.
+ * Return: c or -c
  */
-int _abs(int)
+int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
 		return (c);
 	}
 	else
-		return (c * -1);
+		return (-c);
 }
