@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _islower - function to print abc
- * c is number
+ * _islower - function _islower
+ * @c: is the int
  *
  * Return: Always 0.
  */

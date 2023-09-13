@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * jack_bauer - function jack_bauer
+ * @void: is the void
  * Return: Always 0.
  */
 void jack_bauer(void)
@@ -12,9 +12,9 @@ void jack_bauer(void)
 	int hours_reminder;
 	int minutes_reminder;
 
-	while(hours <= 23)
+	while (hours <= 23)
 	{
-		while(minutes <=59)
+		while (minutes <= 59)
 		{
 			minutes_reminder = minutes % 10;
 			hours_reminder = hours % 10;
@@ -29,5 +29,4 @@ void jack_bauer(void)
 		hours++;
 		minutes = 0;
 	}
-	return(0);
 }

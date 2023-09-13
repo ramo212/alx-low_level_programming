@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - function to print abc.
- *@c is the char of argument
+ *@c: is the int of argument
  * Return: Always 0.
  */
 int _isalpha(int c)
