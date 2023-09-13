@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * times_table - function times_table
@@ -14,11 +15,9 @@ void times_table(void)
 		for (b = 1 ; b < 10 ; b++)
 		{
 		prod = a * b;
-		_putchar(prod);
-		_putchar(',');
-		_putchar(' ');
+		printf("%d", prod);
 		}
-	_putchar('\n');
+	printf("\n");
 	}
 }
 
