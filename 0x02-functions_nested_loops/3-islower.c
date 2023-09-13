@@ -1,19 +1,21 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _islower - function to print abc
+ * c is number
  *
  * Return: Always 0.
  */
 int _islower(int c)
 {
-	char c ;
-	if(c >='a' && c <= 'z')
+	int c;
+
+	if (c >= 'a' && c <= 'z')
 	{
-		return(1);
+		return (1);
 	}
 	else
 	{
-		return(0);
+		return (0);
 	}
 }
