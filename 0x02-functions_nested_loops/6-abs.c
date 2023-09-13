@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * _abs - function _abs.
- * @int: is the int
+ * _abs - function to result absolute
+ * @c: is the int
  * Return: c or -c
  */
 int _abs(int c)
