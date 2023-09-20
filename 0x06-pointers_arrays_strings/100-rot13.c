@@ -11,13 +11,13 @@ char *rot13(char *i)
 	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char data2[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (x = 0; s[x] != '\0'; x++;)
+	for (x = 0; i[x] != '\0'; x++)
 	{
 		for (y = 0; y < 52; y++)
 		{
-			if (s[x] == data1[y])
+			if (i[x] == data1[y])
 			{
-				s[x] = data2[y];
+				i[x] = data2[y];
 				break;
 			}
 		}
