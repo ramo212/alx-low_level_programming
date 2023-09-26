@@ -13,7 +13,7 @@ void set_string(char **s, char *to)
 
 	for (x = 0; x < size; x++)
 	{
-		sum1 = sum1 + [x * size + x];
+		sum1 = sum1 + a[x * size + x];
 	}
 	for (x = size - 1; x >= 0; x--)
 	{
