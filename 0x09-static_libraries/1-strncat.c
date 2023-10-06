@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * _strcat - function that concatenates two strings
+ * _strncat - function to concatenates two strings.
  * @dest: input
  * @src: input
+ * @n: input
  * Return: 0
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int o = 0;
 	int x = 0;
@@ -14,7 +15,7 @@ char *_strcat(char *dest, char *src)
 	{
 		o++;
 	}
-	while (src[x] != '\0')
+	while (x < n && src[x] != '\0')
 	{
 		dest[o] = src[x];
 		o++;
